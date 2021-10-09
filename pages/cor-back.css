@@ -39,9 +39,9 @@
         }
 
         #back-imgs-multi{
-            background-image: url('/Jonathandpcoelho.github.io/img/grifinoria.jfif'), 
-            url('/Jonathandpcoelho.github.io/img/sonserina.jfif'),
-            url('/Jonathandpcoelho.github.io/img/lufa-lufa.jfif'),url('/Jonathandpcoelho.github.io/img/Corvinal.jfif');
+            background-image: url('/img/grifinoria.jfif'), 
+            url('/img/sonserina.jfif'),
+            url('/img/lufa-lufa.jfif'),url('/img/Corvinal.jfif');
             background-repeat: no-repeat,no-repeat,no-repeat;
             background-position: top left, bottom right,bottom left,top right;
             background-size: 80px,80px,80px,80px;
