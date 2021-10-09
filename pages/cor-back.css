@@ -31,10 +31,18 @@
             background-attachment: fixed;
         }
         .box{
-            border: 1px solid black;
-            border-radius: 8px;
-            padding:  8px;
+            border: 2px solid black;
+            border-radius: 20px;
+            padding:  300px;
             width: 50%;
             height: 50%;
+        }
+
+        #back-imgs-multi{
+            background-image: url('/Jonathandpcoelho.github.io/img/grifinoria.jfif'),url('/Jonathandpcoelho.github.io/img/sonserina.jfif'),url('/Jonathandpcoelho.github.io/img/lufa-lufa.jfif'),url(/Jonathandpcoelho.github.io/img/Corvinal.jfif);
+            background-repeat: no-repeat,no-repeat,no-repeat;
+            background-position: top left, bottom right,bottom left,top right;
+            background-size: 80px,80px,80px,80px;
+        
         }
   
