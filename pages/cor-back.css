@@ -1,0 +1,33 @@
+
+        .txt-simples {
+            color: aquamarine;
+        }
+
+        #txt-complexo {
+            color: rgb(255, 255, 0);
+        }
+
+        .txt-translucido {
+            color: rgba(255, 0, 0, 1.3);
+        }
+
+        .back-simples {
+            background-color: #8800ff;
+        }
+
+        .back-translucido {
+            background-color: rgba(0, 255, 0, 0.3);
+        }
+
+        .back-img-unica {
+            background-image: url('/img/294692_css3_icon.png');
+            background-repeat: no-repeat;
+
+        }
+
+        .posicao-img {
+            background-position: center;
+
+            background-attachment: fixed;
+        }
+  
