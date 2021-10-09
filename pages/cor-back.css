@@ -36,6 +36,8 @@
             padding: 25%;
             width: 50%;
             height: 50%;
+            min-width: 150px;
+            min-height: 150px;
         }
 
         #back-imgs-multi{
