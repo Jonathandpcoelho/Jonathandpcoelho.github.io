@@ -1,11 +1,62 @@
+body {
+    display: grid;
+    grid-gap: 8px;
+    grid-template-areas: "header header header " "aside main main " "footer footer footer ";
+    grid-template-columns: 20% auto auto;
+    grid-template-rows: auto 100vh auto;
+    background-image: url(/img/Fundo.jpg);
+}
 
-body{
-    
-    margin-left:  100px;
-    margin-right: 100px;
+aside {
+    grid-area: aside;
+    overflow-y: scroll;
+    overflow-x: scroll;
+}
 
-    border: 1px dashed black;
-    border-radius:  16px;
-    padding: 8px;
+main {
+    grid-area: main;
+    overflow-y: scroll;
+}
 
+footer {
+    grid-area: footer;
+}
+
+header,
+aside,
+main,
+footer {
+    background: rgba(5, 112, 19, .5);
+    color: white;
+    padding: 16px;
+    border-top-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+}
+
+header {
+    grid-area: header;
+    background-color: rgba(7, 85, 7, .7);
+    border-top-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+}
+
+footer {
+    border: 1px solid black;
+    padding: 16px;
+}
+
+footer:hover {
+    background-color: blue;
+}
+
+footer::after {
+    content: 'Mensagem fixa aqui';
+}
+
+aside ol li a {
+    color: white;
+}
+
+a:hover {
+    color: red;
 }
