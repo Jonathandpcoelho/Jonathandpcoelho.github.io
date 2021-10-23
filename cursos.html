@@ -42,7 +42,8 @@
                     <div class="button-group-vertical">
                         <buttom class=" btn btn-outline-primary form-control" onclick="javascript:window.location='/index.html'">Home</buttom>
                         <buttom class=" btn btn-outline-success form-control" onclick="javascript:window.location='/cv.html'">CV</buttom>
-                        <buttom class=" btn btn-info form-control" onclick="javascript:window.location='/cursos.html'">Cursos</buttom>
+                        <buttom class=" btn btn-info form-control" onclick="javascript:window.location='/cursos.html'">
+                            Cursos</buttom>
                         <buttom class=" btn btn-outline-danger form-control" onclick="javascript:window.location='/contato.html'">Contato</buttom>
                     </div>
 
@@ -53,7 +54,45 @@
         <div class="col ">
             <div class="card ">
                 <div class="card-body vh-100 ">
-                    Conteudo principal
+
+                    <div class="accordion" id="cursos">
+
+                        <div class=" accordion-item">
+                            <h2 class="accordion-header" id="algoritimos_1">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse " data-bs-target="algoritimos_1_conteudo" aria-expanded="true" aria-controls="algoritimos_1_conteudo">
+                                    algoritimos-1
+                                </button>
+
+                            </h2>
+
+                            <div id="algoritimos_1_conteudo " class="acordion-collapse collapse show " aria-labelledby="algoritimos_1 " data-bs-parent="#cursos">
+
+                                <div class="acordion-body ">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut dignissimos ab nobis labore inventore consequuntur amet culpa possimus, ducimus asperiores natus, consectetur totam rem sapiente enim harum sit debitis. Aut.
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class=" accordion-item ">
+                            <h2 class="accordion-header" id="algoritimos_2">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse " data-bs-target="algoritimos_2_conteudo " aria-expanded="false " aria-controls="algoritimos_2_conteudo">
+                                    algoritimos-2
+                                </button>
+                            </h2>
+                            <div id="algoritimos_2_conteudo " class="acordion-collapse collapse show " aria-labelledby="algoritimos_2 " data-bs-parent="#cursos">
+
+                                <div class="acordion-body ">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut dignissimos ab nobis labore inventore consequuntur amet culpa possimus, ducimus asperiores natus, consectetur totam rem sapiente enim harum sit debitis. Aut.
+                                </div>
+                            </div>
+
+
+                        </div>
+                        <div class="accordion-item "></div>
+                        <div class="accordion-item "></div>
+                        <div class="accordion-item "></div>
+                        <div class="accordion-item "></div>
+                    </div>
                 </div>
             </div>
         </div>
